@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
 
 header{
-    background-color: rgba(0, 0, 0, 0.897);
     color: white;
     display: flex;
     flex-direction: column;
@@ -31,7 +39,58 @@ header #fotoLucas{
     margin-top: 30px;
 }
 
-#imgSQL{
-    width: 25px;
-    height: 25px;
+
+
+#links a i{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin: 0 10px;
+    margin-top: 30px;
 }
+
+#links a i:hover{
+    scale: 1.1;
+}
+
+/* sobre mim */
+
+.title-sobre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sobre{
+    text-align: center;
+}
+
+#sobre p{
+    margin-top: 30px;
+}
+
+#icons{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#icons i{
+    margin-right: 20px;
+}
+
+#icons i:hover{
+    scale: 1.1;
+}
+
+#imgSQL:hover{
+    scale: 1.1;
+}
+
+#imgSQL{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
+
+
