@@ -13,7 +13,7 @@ h1{
     margin-top: 70px;
 }
 
-header{
+#content{
     color: white;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ header{
     
 }
 
-header #fotoLucas{
+#content #fotoLucas{
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -50,6 +50,19 @@ header #fotoLucas{
 }
 
 #links a i:hover{
+    scale: 1.1;
+}
+
+.gmail{
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: rgba(61, 55, 55, 0.37);
+    border-radius: 25px;
+
+}
+
+.gmail:hover{
+    color: rgba(255, 68, 0, 0.712);
     scale: 1.1;
 }
 
@@ -94,15 +107,16 @@ header #fotoLucas{
 
 /* projetos */
 
-.container-card{
+.container-card {
     margin: 0 auto;
     flex-wrap: wrap;
     display: flex;
-    margin: 10px 10px;
-    margin-top: 50px ;
+    justify-content: space-around; /* Para distribuir os cards de forma uniforme */
+    max-width: 960px; /* Define um limite de largura para o container */
+    margin-top: 50px;
 }
 
-.card{
+.card {
     width: 300px;
     height: 300px;
     display: flex;
@@ -112,33 +126,45 @@ header #fotoLucas{
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-    margin: 10px auto;
+    margin: 10px;
 }
 
-.card img{
+.card img {
     width: 90%;
     height: 70%;
     object-fit: cover;
     border-radius: 25px;
 }
 
-.card a{
+.card a {
     text-decoration: none;
     color: white;
     font-size: 25px;
 }
 
-.card a:hover{
+.card a:hover {
     color: orangered;
 }
 
-.card .icons{
+.card .icons {
     font-size: 25px;
 }
 
-.card .icons i:hover{
+.card .icons i:hover {
     scale: 1.1;
+}
+
+
+/* footer */
+
+#footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgba(61, 55, 55, 0.164);
+    font-weight: 600;
 }
 
 
